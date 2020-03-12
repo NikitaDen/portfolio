@@ -1,0 +1,33 @@
+.intro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  &__name {
+    grid-column: 1/4;
+    h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      line-height: 1;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    h4 {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    div {
+      margin-right: 1rem;
+    }
+  }
+
+  .avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: fill;
+  }
+}
