@@ -1,27 +1,56 @@
 import React from "react";
 import avatar from '../../../assets/images/avatar-2.JPG';
+import {connect} from "react-redux";
 
 
 const Intro = (props) => {
+    const toggleLang = (componentRu, componentEn) => {
+        return props.langRU ? componentRu : componentEn;
+    };
+
     return (
         <div className='intro'>
             <div className='intro__name'>
-                <h1>Nikita Denisov</h1>
-                <p>Front-end developer</p>
+                {toggleLang(<>
+                    <h1>{props.ru.fullName}</h1>
+                    <p>Front-end developer</p>
+                </>, <>
+                    <h1>{props.en.fullName}</h1>
+                    <p>Front-end developer</p>
+                </>)}
             </div>
             <div className='intro__info'>
                 <div>
-                    <h4>City:</h4>
-                    <p>Minsk</p>
+                    {toggleLang(<>
+                        <h4>Город:</h4>
+                        <p>{props.ru.city}</p>
+                    </>, <>
+                        <h1>City:</h1>
+                        <p>{props.en.city}</p>
+                    </>)}
                 </div>
                 <div>
-                    <h4>Age:</h4>
-                    <p>23</p>
+                    {toggleLang(<>
+                        <h4>Возраст:</h4>
+                    </>, <>
+                        <h1>Age:</h1>
+                    </>)}
+                    <p>{props.age}</p>
                 </div>
             </div>
-            <img className='avatar' src={avatar} alt="Avatar"/>
+
+            <img className={props.darkMode ? 'avatar avatar--dark' : 'avatar'} src={avatar} alt="Avatar"/>
         </div>
     )
 };
 
-export default Intro;
+let stateToProps = (state) => ({
+    darkMode: state.config.darkMode,
+    ru: state.mainInfo.ru,
+    fullName: state.mainInfo.fullName,
+    city: state.mainInfo.city,
+    age: state.mainInfo.age,
+    langRU: state.config.langRU,
+});
+
+export default connect(stateToProps, null)(Intro);
