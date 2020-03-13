@@ -1,5 +1,4 @@
 import React from "react";
-import avatar from '../../../assets/images/avatar-2.JPG';
 import {connect} from "react-redux";
 
 
@@ -39,7 +38,7 @@ const Intro = (props) => {
                 </div>
             </div>
 
-            <img className={props.darkMode ? 'avatar avatar--dark' : 'avatar'} src={avatar} alt="Avatar"/>
+            <img className={props.darkMode ? 'avatar avatar--dark' : 'avatar'} src={props.avatar} alt="Avatar"/>
         </div>
     )
 };
@@ -51,6 +50,7 @@ let stateToProps = (state) => ({
     city: state.mainInfo.city,
     age: state.mainInfo.age,
     langRU: state.config.langRU,
+    avatar: state.mainInfo.avatar,
 });
 
 export default connect(stateToProps, null)(Intro);

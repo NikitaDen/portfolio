@@ -9,10 +9,12 @@ import vk from './../assets/images/vk.svg';
 import fb from './../assets/images/facebook.svg';
 import gmail from './../assets/images/gmail.svg';
 import telegram from './../assets/images/telegram.svg';
+import avatar from './../assets/images/avatar.jpg';
 
 let initialState = {
     age: '23',
     phone: '+375 (29) 317-05-55',
+    avatar: avatar,
     technologies: [
         {photo: js, alt: 'JS', id: 1},
         {photo: react, alt: 'React', id: 2},

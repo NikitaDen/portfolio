@@ -18,7 +18,7 @@
 
   &__projects {
     display: grid;
-    grid-template-columns: repeat(2, minmax(120px, 11vw));
+    grid-template-columns: repeat(2, minmax(90px, 11vw));
     grid-auto-rows: 11vw;
     grid-gap: 1rem;
     justify-content: center;
