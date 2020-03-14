@@ -23,6 +23,10 @@ let initialState = {
         {photo: css, alt: 'CSS', id: 5},
         {photo: sass, alt: 'Sass', id: 6},
     ],
+    portfolio: [
+        {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor'},
+        {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor'},
+    ],
     social: [
         {url: 'https://vk.com/nkt_dnsv', photo: vk, alt: 'vk', id: 1},
         {url: 'https://www.facebook.com/profile.php?id=100004291969423', photo: fb, alt: 'facebook', id: 2},

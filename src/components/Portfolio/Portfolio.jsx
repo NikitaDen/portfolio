@@ -23,13 +23,15 @@ const Portfolio = (props) => {
     return (
         <div className={props.darkMode ? 'portfolio portfolio--dark' : "portfolio"}>
             <div className='portfolio__projects'>
-                <a href='https://nikitaden.github.io/palettor/' className='portfolio__projects__item palettor'>
-                    <div>Palettor.</div>
-                </a>
-                <a href='https://nikitaden.github.io/palettor/' className='portfolio__projects__item palettor'>
-                    <div>Palettor.</div>
-                </a>
+                {props.portfolio.map(item => {
+                    return (
+                        <a href={item.href} className={item.className}>
+                            <div>{item.title}</div>
+                        </a>
+                    )
+                })}
             </div>
+
             <div className={props.darkMode ? 'contacts contacts--dark' : "contacts"}>
                 <div className='contacts__social'>
                     {toggleLang(<h3>Соцсети</h3>, <h3>Social</h3>)}
@@ -66,6 +68,7 @@ let stateToProps = (state) => ({
     phone: state.mainInfo.phone,
     social: state.mainInfo.social,
     ru: state.mainInfo.ru,
+    portfolio: state.mainInfo.portfolio,
 });
 
 export default connect(stateToProps, {toggleDarkMode, setLanguage})(Portfolio);
