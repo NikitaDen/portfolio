@@ -9,6 +9,7 @@ import vk from './../assets/images/vk.svg';
 import fb from './../assets/images/facebook.svg';
 import gmail from './../assets/images/gmail.svg';
 import telegram from './../assets/images/telegram.svg';
+import github from './../assets/images/github.svg';
 import avatar from './../assets/images/avatar.JPG';
 
 let initialState = {
@@ -24,14 +25,15 @@ let initialState = {
         {photo: sass, alt: 'Sass', id: 6},
     ],
     portfolio: [
-        {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor'},
-        {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor'},
+        {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor', id: 1},
+        {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor', id: 2},
     ],
     social: [
         {url: 'https://vk.com/nkt_dnsv', photo: vk, alt: 'vk', id: 1},
         {url: 'https://www.facebook.com/profile.php?id=100004291969423', photo: fb, alt: 'facebook', id: 2},
         {url: 'mailto:nikita.denisov.1991@gmail.com', photo: gmail, alt: 'gmail', id: 3},
         {url: 'https://t.me/NktDenisov', photo: telegram, alt: 'telegram', id: 4},
+        {url: 'https://github.com/NikitaDen', photo: github, alt: 'github', id: 5},
     ],
     ru: {
         fullName: 'Никита Денисов',

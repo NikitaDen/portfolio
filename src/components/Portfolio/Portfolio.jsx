@@ -25,7 +25,7 @@ const Portfolio = (props) => {
             <div className='portfolio__projects'>
                 {props.portfolio.map(item => {
                     return (
-                        <a href={item.href} className={item.className}>
+                        <a key={item.id} href={item.href} className={item.className}>
                             <div>{item.title}</div>
                         </a>
                     )
