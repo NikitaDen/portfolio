@@ -23,7 +23,7 @@ const Portfolio = (props) => {
     return (
         <div className={props.darkMode ? 'portfolio portfolio--dark' : "portfolio"}>
             <div className='portfolio__projects'>
-                <a href='http://vk.com' className='portfolio__projects__item palettor'>
+                <a href='https://nikitaden.github.io/palettor/' className='portfolio__projects__item palettor'>
                     <div>Palettor.</div>
                 </a>
                 <a href='http://vk.com' className='portfolio__projects__item palettor'>
