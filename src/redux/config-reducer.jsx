@@ -2,7 +2,7 @@ const TOGGLE_DARK_MODE = 'TOGGLE_DARK_MODE';
 const SET_LANGUAGE = 'SET_LANGUAGE';
 
 let initialState = {
-    darkMode: false,
+    darkMode: true,
     langRU: false,
 };
 
