@@ -11,6 +11,10 @@
     margin-top: 1.5rem;
   }
 
+  @media all and (max-width: 500px) {
+    padding: 1rem 1rem;
+  }
+
   &--dark {
     background-color: black;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
@@ -18,7 +22,7 @@
 
   &__projects {
     display: grid;
-    grid-template-columns: repeat(2, minmax(90px, 11vw));
+    grid-template-columns: repeat(2, minmax(100px, 15vw));
     grid-auto-rows: 11vw;
     grid-gap: 1rem;
     justify-content: center;
@@ -26,6 +30,10 @@
     @media all and (max-width: 1024px) {
       justify-content: start;
       margin-bottom: 1rem;
+    }
+
+    @media all and (max-width: 414px) {
+      grid-auto-rows: 18vw;
     }
 
     &__item {
@@ -36,6 +44,11 @@
       color: white;
       position: relative;
       border-radius: 10px;
+
+      @media all and (max-width: 414px) {
+        font-size: 1.25rem;
+        //height: 0px;
+      }
 
       &.palettor {
         background: linear-gradient(180deg, #5EE2FF 0%, #C63939 52.6%, #660C7C 100%);
@@ -53,7 +66,7 @@
 
 .contacts {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
 
   &__social {
     &__item {

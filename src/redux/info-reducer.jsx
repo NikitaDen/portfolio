@@ -33,26 +33,26 @@ let initialState = {
         fullName: 'Никита Денисов',
         city: 'Минск',
         info: [
-            {head: 'О себе', text: 'Целеустремленный и дисциплинированный. ' +
+            {head: '\'О себе\':', text: '\'Целеустремленный и дисциплинированный. ' +
             'Мотивирован для карьерного роста и совершенствования навыков программирования. ' +
             'Программирование дает прекрасную возможность сделать рабочую жизнь интересной и оцененной по достоинству,' +
-            ' поэтому у меня достаточно мотивации, чтобы стать хорошим программистом.', id: 1},
-            {head: 'Образование', text: 'Магистр (БНТУ, кафедра "Стандартизация, метрология и информационные системы")', id: 2},
-            {head: 'Языки', text: 'Английский, B1-B2', id: 3},
-            {head: 'Опыт', text: 'null', id: 4},
+            ' поэтому у меня достаточно мотивации, чтобы стать хорошим программистом.\' ,', id: 1},
+            {head: '\'Образование\':', text: '\'Магистр (БНТУ, кафедра "Стандартизация, метрология и информационные системы")\' ,', id: 2},
+            {head: '\'Языки\':', text: '\'Английский, B1-B2\' ,', id: 3},
+            {head: '\'Опыт\':', text: 'null', id: 4},
         ],
     },
     en: {
         fullName: 'Nikita Denisov',
         city: 'Minsk',
         info: [
-            {head: 'Objective', text: 'Purposeful and disciplined. ' +
+            {head: 'Objective:', text: '\'Purposeful and disciplined. ' +
                     'Motivated for career growth and improving programming skills. ' +
                     'Programming gives a great opportunity to make work-life interesting and valued, ' +
-                    'so I have enough motivation to become a good programmer.', id: 1},
-            {head: 'Education', text: 'Master (BNTU, "Standartization, metrology and information systems")', id: 2},
-            {head: 'Languages', text: 'English, B1-B2', id: 3},
-            {head: 'Experience', text: 'null', id: 4},
+                    'so I have enough motivation to become a good programmer.\'', id: 1},
+            {head: 'Education:', text: '\'Master (BNTU, "Standartization, metrology and information systems")\' ,', id: 2},
+            {head: 'Languages:', text: '\'English, B1-B2\' ,', id: 3},
+            {head: 'Experience:', text: 'null', id: 4},
         ],
     }
 };
