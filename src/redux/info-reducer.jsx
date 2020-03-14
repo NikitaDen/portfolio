@@ -9,7 +9,7 @@ import vk from './../assets/images/vk.svg';
 import fb from './../assets/images/facebook.svg';
 import gmail from './../assets/images/gmail.svg';
 import telegram from './../assets/images/telegram.svg';
-import avatar from './../assets/images/avatar.jpg';
+import avatar from './../assets/images/avatar.JPG';
 
 let initialState = {
     age: '23',

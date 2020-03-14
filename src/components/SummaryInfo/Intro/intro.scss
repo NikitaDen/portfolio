@@ -56,7 +56,9 @@
     width: 13rem;
     height: 13rem;
     border-radius: 50%;
-    object-fit: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 20%;
     grid-column: 3/4;
     grid-row: 1/3;
     box-shadow: 0 0 10px gray;

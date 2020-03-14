@@ -38,7 +38,7 @@ const Intro = (props) => {
                 </div>
             </div>
 
-            <img className={props.darkMode ? 'avatar avatar--dark' : 'avatar'} src={props.avatar} alt="Avatar"/>
+            <div className={props.darkMode ? 'avatar avatar--dark' : 'avatar'} style={{backgroundImage: `url(${props.avatar})`}}></div>
         </div>
     )
 };
