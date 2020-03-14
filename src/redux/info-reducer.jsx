@@ -50,7 +50,7 @@ let initialState = {
     },
     en: {
         fullName: 'Nikita Denisov',
-        city: 'Minsk',
+        city: '\'Minsk\'',
         info: [
             {head: 'Objective:', text: '\'Purposeful and disciplined. ' +
                     'Motivated for career growth and improving programming skills. ' +
