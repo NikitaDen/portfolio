@@ -26,7 +26,7 @@ const Portfolio = (props) => {
                 <a href='https://nikitaden.github.io/palettor/' className='portfolio__projects__item palettor'>
                     <div>Palettor.</div>
                 </a>
-                <a href='http://vk.com' className='portfolio__projects__item palettor'>
+                <a href='https://nikitaden.github.io/palettor/' className='portfolio__projects__item palettor'>
                     <div>Palettor.</div>
                 </a>
             </div>
