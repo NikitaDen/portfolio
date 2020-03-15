@@ -26,7 +26,6 @@ let initialState = {
     ],
     portfolio: [
         {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor', id: 1},
-        {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor', id: 2},
     ],
     social: [
         {url: 'https://vk.com/nkt_dnsv', photo: vk, alt: 'vk', id: 1},
