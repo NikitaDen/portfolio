@@ -27,8 +27,14 @@ const MainInfo = (props) => {
                 {toggleLang(<h3>'Технологии': </h3>, <h3>Technologies: </h3>)}
                 <div className={'technologies'}>
                     <span className={props.darkMode ? 'bracket bracket--dark' : 'bracket'}>[</span>
-                    {props.technologies.map(item => <img key={item.id} src={item.photo} alt={item.alt}
-                                                         className={props.darkMode ? 'technology technology--dark' : 'technology'}/>)}
+                    {props.technologies.map(item => {
+                        return (
+                            <>
+                                <span className='technology-text'>{item.alt}</span>
+                                <img key={item.id} src={item.photo} alt={item.alt}
+                                     className={props.darkMode ? 'technology technology--dark' : 'technology'}/>
+                            </>)
+                    })}
                     <span className={props.darkMode ? 'bracket bracket--dark' : 'bracket'}>]</span>,
                 </div>
             </div>
