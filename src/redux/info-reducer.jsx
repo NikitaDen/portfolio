@@ -12,6 +12,8 @@ import telegram from './../assets/images/telegram.svg';
 import github from './../assets/images/github.svg';
 import avatar from './../assets/images/avatar.JPG';
 
+import tasker from './../assets/images/tasker.svg';
+
 let initialState = {
     age: '23',
     phone: '+375 (29) 317-05-55',
@@ -25,7 +27,8 @@ let initialState = {
         {photo: sass, alt: 'Sass', id: 6},
     ],
     portfolio: [
-        {href: 'https://nikitaden.github.io/palettor/', title: 'Palettor.', className: 'portfolio__projects__item palettor', id: 1},
+        {href: 'https://nikitaden.github.io/palettor/', title: 'Pickolor.', className: 'portfolio__projects__item palettor', img: '', id: 1},
+        {href: 'https://nikitaden.github.io/tasker/', title: 'Tasker.', className: 'portfolio__projects__item tasker', img: tasker, id: 2},
     ],
     social: [
         {url: 'https://vk.com/nkt_dnsv', photo: vk, alt: 'vk', id: 1},
