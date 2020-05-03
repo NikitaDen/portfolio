@@ -51,7 +51,7 @@ let initialState = {
             ' поэтому у меня достаточно мотивации, чтобы стать хорошим программистом.\' ,', id: 1},
             {head: '\'Образование\':', text: '\'Магистр (БНТУ, кафедра "Стандартизация, метрология и информационные системы")\' ,', id: 2},
             {head: '\'Языки\':', text: '\'Английский, B1-B2\' ,', id: 3},
-            {head: '\'Опыт\':', text: '\'Фриланс\'', id: 4},
+            {head: '\'Опыт\':', text: '\'Фриланс, январь 2020\'', id: 4},
             {head: '\'Коммерческие работы\':', text: '\'Веб-сайт Bermudy\'', id: 5},
         ],
     },
@@ -65,7 +65,7 @@ let initialState = {
                     'so I have enough motivation to become a good programmer.\'', id: 1},
             {head: 'Education:', text: '\'Master (BNTU, "Standartization, metrology and information systems")\' ,', id: 2},
             {head: 'Languages:', text: '\'English, B1-B2\' ,', id: 3},
-            {head: 'Experience:', text: '\'Freelance\'', id: 4},
+            {head: 'Experience:', text: '\'Freelance, January 2020\'', id: 4},
             {head: 'Commercial projects:', text: '\'Website Bermudy\'', id: 5},
         ],
     }
