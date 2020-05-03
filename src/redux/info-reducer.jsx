@@ -13,6 +13,8 @@ import github from './../assets/images/github.svg';
 import avatar from './../assets/images/avatar.JPG';
 
 import tasker from './../assets/images/tasker.svg';
+import chart from './../assets/images/chart.svg';
+import bermudy from './../assets/images/bermudy.png';
 
 let initialState = {
     age: '23',
@@ -29,11 +31,13 @@ let initialState = {
     portfolio: [
         {href: 'https://nikitaden.github.io/palettor/', title: 'Pickolor.', className: 'portfolio__projects__item palettor', img: '', id: 1},
         {href: 'https://nikitaden.github.io/tasker/', title: 'Tasker.', className: 'portfolio__projects__item tasker', img: tasker, id: 2},
+        {href: 'https://nikitaden.github.io/analyzer/', title: 'Analyzer.', className: 'portfolio__projects__item analyzer', img: chart, id: 3},
+        {href: 'http://bermudy.by/', title: 'Bermudy.', className: 'portfolio__projects__item bermudy', img: bermudy, id: 4},
     ],
     social: [
         {url: 'https://vk.com/nkt_dnsv', photo: vk, alt: 'vk', id: 1},
         {url: 'https://www.facebook.com/profile.php?id=100004291969423', photo: fb, alt: 'facebook', id: 2},
-        {url: 'mailto:nikita.denisov.1991@gmail.com', photo: gmail, alt: 'gmail', id: 3},
+        {url: 'mailto:nickdnsv@gmail.com', photo: gmail, alt: 'gmail', id: 3},
         {url: 'https://t.me/NktDenisov', photo: telegram, alt: 'telegram', id: 4},
         {url: 'https://github.com/NikitaDen', photo: github, alt: 'github', id: 5},
     ],
@@ -47,7 +51,8 @@ let initialState = {
             ' поэтому у меня достаточно мотивации, чтобы стать хорошим программистом.\' ,', id: 1},
             {head: '\'Образование\':', text: '\'Магистр (БНТУ, кафедра "Стандартизация, метрология и информационные системы")\' ,', id: 2},
             {head: '\'Языки\':', text: '\'Английский, B1-B2\' ,', id: 3},
-            {head: '\'Опыт\':', text: 'null', id: 4},
+            {head: '\'Опыт\':', text: '\'Фриланс\'', id: 4},
+            {head: '\'Коммерческие работы\':', text: '\'Веб-сайт Bermudy\'', id: 5},
         ],
     },
     en: {
@@ -60,7 +65,8 @@ let initialState = {
                     'so I have enough motivation to become a good programmer.\'', id: 1},
             {head: 'Education:', text: '\'Master (BNTU, "Standartization, metrology and information systems")\' ,', id: 2},
             {head: 'Languages:', text: '\'English, B1-B2\' ,', id: 3},
-            {head: 'Experience:', text: 'null', id: 4},
+            {head: 'Experience:', text: '\'Freelance\'', id: 4},
+            {head: 'Commercial projects:', text: '\'Website Bermudy\'', id: 5},
         ],
     }
 };

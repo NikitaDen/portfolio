@@ -68,6 +68,30 @@
         background-size: cover;
         background: white no-repeat center;
 
+        div {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      &.analyzer {
+        color: white;
+        background-size: cover;
+        background: white no-repeat bottom;
+
+        div {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      &.bermudy {
+        color: white;
+        background-size: cover;
+        background: white no-repeat center;
 
         div {
           position: absolute;
