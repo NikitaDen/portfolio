@@ -11,6 +11,7 @@ import fb from './../assets/images/facebook.svg';
 import gmail from './../assets/images/gmail.svg';
 import telegram from './../assets/images/telegram.svg';
 import github from './../assets/images/github.svg';
+import ln from './../assets/images/linkedin.svg';
 import avatar from './../assets/images/avatar.JPG';
 
 import tasker from './../assets/images/tasker.svg';
@@ -23,12 +24,12 @@ let initialState = {
     avatar: avatar,
     technologies: [
         {photo: js, alt: 'JavaScript', id: 1},
-        {photo: ts, alt: 'TypeScript', id: 7},
-        {photo: react, alt: 'React', id: 2},
-        {photo: redux, alt: 'Redux', id: 3},
-        {photo: html, alt: 'HTML', id: 4},
-        {photo: css, alt: 'CSS', id: 5},
-        {photo: sass, alt: 'Sass', id: 6},
+        {photo: ts, alt: 'TypeScript', id: 2},
+        {photo: react, alt: 'React', id: 3},
+        {photo: redux, alt: 'Redux', id: 4},
+        {photo: html, alt: 'HTML', id: 5},
+        {photo: css, alt: 'CSS', id: 6},
+        {photo: sass, alt: 'Sass', id: 7},
     ],
     portfolio: [
         {href: 'https://nikitaden.github.io/palettor/', title: 'Pickolor.', className: 'portfolio__projects__item palettor', img: '', id: 1},
@@ -37,11 +38,11 @@ let initialState = {
         {href: 'http://bermudy.by/', title: 'Bermudy.', className: 'portfolio__projects__item bermudy', img: bermudy, id: 4},
     ],
     social: [
-        {url: 'https://vk.com/nkt_dnsv', photo: vk, alt: 'vk', id: 1},
-        {url: 'https://www.facebook.com/profile.php?id=100004291969423', photo: fb, alt: 'facebook', id: 2},
-        {url: 'mailto:nickdnsv@gmail.com', photo: gmail, alt: 'gmail', id: 3},
-        {url: 'https://t.me/NktDenisov', photo: telegram, alt: 'telegram', id: 4},
-        {url: 'https://github.com/NikitaDen', photo: github, alt: 'github', id: 5},
+        {url: 'mailto:nickdnsv@gmail.com', photo: gmail, alt: 'gmail', id: 1},
+        {url: 'https://t.me/NktDenisov', photo: telegram, alt: 'telegram', id: 2},
+        {url: 'https://www.linkedin.com/in/nktdenisov/', photo: ln, alt: 'linkedIn', id: 3},
+        {url: 'https://github.com/NikitaDen', photo: github, alt: 'github', id: 4},
+        {url: 'https://www.facebook.com/profile.php?id=100004291969423', photo: fb, alt: 'facebook', id: 5},
     ],
     ru: {
         fullName: 'Никита Денисов',
