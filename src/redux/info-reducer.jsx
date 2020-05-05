@@ -6,7 +6,6 @@ import html from './../assets/images/html.svg';
 import css from './../assets/images/css.svg';
 import sass from './../assets/images/sass.svg';
 
-import vk from './../assets/images/vk.svg';
 import fb from './../assets/images/facebook.svg';
 import gmail from './../assets/images/gmail.svg';
 import telegram from './../assets/images/telegram.svg';
