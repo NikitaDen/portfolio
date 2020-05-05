@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71090412987fd380e28d254c81295468",
+    "revision": "840d86b5a64c6f3d251219b9fae205d0",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "10b75f2ee3cd1b50b564",
+    "revision": "d152efa20b5f5ae28ab6",
     "url": "/portfolio/static/css/main.b29656d6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a0890233.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10b75f2ee3cd1b50b564",
-    "url": "/portfolio/static/js/main.5226c862.chunk.js"
+    "revision": "d152efa20b5f5ae28ab6",
+    "url": "/portfolio/static/js/main.6c84949b.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/telegram.82de5d78.svg"
   },
   {
-    "revision": "cc69c9a88b55f5e8ebbad05c70f1845e",
-    "url": "/portfolio/static/media/ts.cc69c9a8.svg"
+    "revision": "1d486c0b2840036f75bba3ba28448837",
+    "url": "/portfolio/static/media/ts.1d486c0b.svg"
   },
   {
     "revision": "b4662c40091ef9ee985989838c579bbe",
