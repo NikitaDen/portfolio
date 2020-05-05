@@ -1,4 +1,5 @@
 import js from './../assets/images/js.svg';
+import ts from './../assets/images/ts.svg';
 import react from './../assets/images/react.svg';
 import redux from './../assets/images/redux.svg';
 import html from './../assets/images/html.svg';
@@ -21,7 +22,8 @@ let initialState = {
     phone: '+375 (29) 317-05-55',
     avatar: avatar,
     technologies: [
-        {photo: js, alt: 'JS', id: 1},
+        {photo: js, alt: 'JavaScript', id: 1},
+        {photo: ts, alt: 'TypeScript', id: 7},
         {photo: react, alt: 'React', id: 2},
         {photo: redux, alt: 'Redux', id: 3},
         {photo: html, alt: 'HTML', id: 4},
