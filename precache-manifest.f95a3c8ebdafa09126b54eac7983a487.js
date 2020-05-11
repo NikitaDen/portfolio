@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "691b22177b8563793009aa81f9c88325",
+    "revision": "76c28710576f400ae9beecadd0e2d995",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b3ca96d0a569dad2362c",
-    "url": "/portfolio/static/css/main.525daedb.chunk.css"
+    "revision": "f8819223097bc4148110",
+    "url": "/portfolio/static/css/main.0b9ad9cd.chunk.css"
   },
   {
     "revision": "74158a1ca3c275955a78",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a0890233.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3ca96d0a569dad2362c",
-    "url": "/portfolio/static/js/main.adfeb9f0.chunk.js"
+    "revision": "f8819223097bc4148110",
+    "url": "/portfolio/static/js/main.3c7c618d.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/bermudy.468ae6d1.png"
   },
   {
-    "revision": "60871ca0add452e2023dae2b57a6e3dc",
-    "url": "/portfolio/static/media/chart.60871ca0.svg"
+    "revision": "424c0526517a17c3cfcd2f03b6136cd5",
+    "url": "/portfolio/static/media/chart.424c0526.svg"
   },
   {
     "revision": "529c2c1ae9cfe6f9d4c4c640ae42811a",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/sun.7eae5395.svg"
   },
   {
-    "revision": "00390a244a35d868932731f39046ca60",
-    "url": "/portfolio/static/media/tasker.00390a24.svg"
+    "revision": "d48104a79ec4053f074633641ce58e60",
+    "url": "/portfolio/static/media/tasker.d48104a7.svg"
   },
   {
     "revision": "82de5d7840a75a6357f91b5e43c8290a",
