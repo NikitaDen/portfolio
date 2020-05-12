@@ -29,11 +29,11 @@ const MainInfo = (props) => {
                     <span className={props.darkMode ? 'bracket bracket--dark' : 'bracket'}>[</span>
                     {props.technologies.map(item => {
                         return (
-                            <>
+                            <React.Fragment key={item.id}>
                                 <span className='technology-text'>{item.alt}</span>
-                                <img key={item.id} src={item.photo} alt={item.alt}
+                                <img src={item.photo} alt={item.alt}
                                      className={props.darkMode ? 'technology technology--dark' : 'technology'}/>
-                            </>)
+                            </React.Fragment>)
                     })}
                     <span className={props.darkMode ? 'bracket bracket--dark' : 'bracket'}>]</span>,
                 </div>

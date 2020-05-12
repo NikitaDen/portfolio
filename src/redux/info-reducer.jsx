@@ -18,9 +18,9 @@ import chart from './../assets/images/chart.svg';
 import bermudy from './../assets/images/bermudy.png';
 
 let initialState = {
-    age: '23',
+    age: '24',
     phone: '+375 (29) 317-05-55',
-    avatar: avatar,
+    avatar,
     technologies: [
         {photo: js, alt: 'JavaScript', id: 1},
         {photo: ts, alt: 'TypeScript', id: 2},
@@ -31,10 +31,46 @@ let initialState = {
         {photo: sass, alt: 'Sass', id: 7},
     ],
     portfolio: [
-        {href: 'https://nikitaden.github.io/palettor/', title: 'Pickolor.', className: 'portfolio__projects__item palettor', img: '', id: 1},
-        {href: 'https://nikitaden.github.io/tasker/', title: 'Tasker.', className: 'portfolio__projects__item tasker', img: tasker, id: 2},
-        {href: 'https://nikitaden.github.io/analyzer/', title: 'Analyzer.', className: 'portfolio__projects__item analyzer', img: chart, id: 3},
-        {href: 'http://bermudy.by/', title: 'Bermudy.', className: 'portfolio__projects__item bermudy', img: bermudy, id: 4},
+        {
+            href: 'https://nikitaden.github.io/analyzer/',
+            title: 'Analyzer.',
+            className: 'portfolio__projects__item analyzer',
+            img: chart,
+            description: 'This is a complex app that helps you identify weaknesses in your budget by providing analytics for expenses.',
+            stack: 'JavaScript, React, Redux, NodeJS, Express, MongoDB, JWT, JSX, SCSS',
+            github: 'https://github.com/NikitaDen/analyzer',
+            id: 3,
+        },
+        {
+            href: 'https://nikitaden.github.io/palettor/',
+            title: 'Pickolor.',
+            className: 'portfolio__projects__item palettor',
+            img: '',
+            stack: 'JavaScript, React, Redux, JSX, SCSS',
+            description: 'This is a simple app that helps you find colors for the design.',
+            github: 'https://github.com/NikitaDen/palettor',
+            id: 1,
+        },
+        {
+            href: 'https://nikitaden.github.io/tasker/',
+            title: 'Tasker.',
+            className: 'portfolio__projects__item tasker',
+            img: tasker,
+            stack: 'JavaScript, React (React Hooks for state management), JSX, SCSS',
+            description: 'This app helps you manage your everyday tasks more efficiently.',
+            github: 'https://github.com/NikitaDen/tasker',
+            id: 2,
+        },
+        {
+            href: 'http://bermudy.by/',
+            title: 'Bermudy.',
+            className: 'portfolio__projects__item bermudy',
+            img: bermudy,
+            description: 'Bermudy - commercial project for fish farm, that provides fishing services',
+            stack: 'JavaScript, Jquery, PHP, HTML, SCSS, Gulp',
+            github: '',
+            id: 4,
+        },
     ],
     social: [
         {url: 'mailto:nickdnsv@gmail.com', photo: gmail, alt: 'gmail', id: 1},
@@ -43,29 +79,43 @@ let initialState = {
         {url: 'https://github.com/NikitaDen', photo: github, alt: 'github', id: 4},
         {url: 'https://www.facebook.com/profile.php?id=100004291969423', photo: fb, alt: 'facebook', id: 5},
     ],
+
     ru: {
         fullName: 'Никита Денисов',
         city: '\'Минск\'',
         info: [
-            {head: '\'О себе\':', text: '\'Целеустремленный и дисциплинированный. ' +
-            'Мотивирован для карьерного роста и совершенствования навыков программирования. ' +
-            'Программирование дает прекрасную возможность сделать рабочую жизнь интересной и оцененной по достоинству,' +
-            ' поэтому у меня достаточно мотивации, чтобы стать хорошим программистом.\' ,', id: 1},
-            {head: '\'Образование\':', text: '\'Магистр (БНТУ, кафедра "Стандартизация, метрология и информационные системы")\' ,', id: 2},
+            {
+                head: '\'О себе\':', text: '\'Целеустремленный и дисциплинированный. ' +
+                    'Мотивирован для карьерного роста и совершенствования навыков программирования. ' +
+                    'Программирование дает прекрасную возможность сделать рабочую жизнь интересной и оцененной по достоинству,' +
+                    ' поэтому у меня достаточно мотивации, чтобы стать хорошим программистом.\' ,', id: 1
+            },
+            {
+                head: '\'Образование\':',
+                text: '\'Магистр (БНТУ, кафедра "Стандартизация, метрология и информационные системы")\' ,',
+                id: 2
+            },
             {head: '\'Языки\':', text: '\'Английский, B1-B2\' ,', id: 3},
             {head: '\'Опыт\':', text: '\'Фриланс, январь 2020\'', id: 4},
             {head: '\'Коммерческие работы\':', text: '\'Веб-сайт Bermudy\'', id: 5},
         ],
     },
+
     en: {
         fullName: 'Nikita Denisov',
         city: '\'Minsk\'',
         info: [
-            {head: 'Objective:', text: '\'Purposeful and disciplined. ' +
+            {
+                head: 'Objective:', text: '\'Purposeful and disciplined. ' +
                     'Motivated for career growth and improving programming skills. ' +
                     'Programming gives a great opportunity to make work-life interesting and valued, ' +
-                    'so I have enough motivation to become a good programmer.\'', id: 1},
-            {head: 'Education:', text: '\'Master (BNTU, "Standartization, metrology and information systems")\' ,', id: 2},
+                    'so I have enough motivation to become a good programmer.\'', id: 1
+            },
+            {
+                head: 'Education:',
+                text: '\'Master (BNTU, "Standartization, metrology and information systems")\' ,',
+                id: 2
+            },
             {head: 'Languages:', text: '\'English, B1-B2\' ,', id: 3},
             {head: 'Experience:', text: '\'Freelance, January 2020\'', id: 4},
             {head: 'Commercial projects:', text: '\'Website Bermudy\'', id: 5},

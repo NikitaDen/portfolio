@@ -22,16 +22,6 @@ const Portfolio = (props) => {
 
     return (
         <div className={props.darkMode ? 'portfolio portfolio--dark' : "portfolio"}>
-            <div className='portfolio__projects'>
-                {props.portfolio.map(item => {
-                    return (
-                        <a target="_blank" key={item.id} href={item.href} style={item.img ? {backgroundImage: `url('${item.img}')`} : {}} className={item.className}>
-                            <div>{item.title}</div>
-                        </a>
-                    )
-                })}
-            </div>
-
             <div className={props.darkMode ? 'contacts contacts--dark' : "contacts"}>
                 <div className='contacts__social'>
                     {toggleLang(<h3>Соцсети</h3>, <h3>Social</h3>)}
@@ -44,6 +34,10 @@ const Portfolio = (props) => {
                         )
                     })}
                 </div>
+                <div className='contacts__phone'>
+                    {toggleLang(<h3>Телефон</h3>, <h3>Phone</h3>)}
+                    <p>{props.phone}</p>
+                </div>
                 <div className='settings'>
                     <img onClick={() => setLanguage(props.langRU)}
                          className={props.darkMode ? 'lang lang--dark' : "lang"} src={lang} alt="Language"/>
@@ -53,10 +47,25 @@ const Portfolio = (props) => {
                              style={props.darkMode ? {backgroundImage: `url(${sun})`} : {backgroundImage: `url(${moon})`}}/>
                     </label>
                 </div>
-                <div className='contacts__phone'>
-                    {toggleLang(<h3>Телефон</h3>, <h3>Phone</h3>)}
-                    <p>{props.phone}</p>
-                </div>
+            </div>
+
+            {toggleLang(<h3 style={{marginBottom: '1rem'}}>Проекты</h3>, <h3 style={{marginBottom: '1rem'}}>Projects</h3>)}
+
+            <div className='portfolio__projects'>
+                {props.portfolio.map(item => {
+                    return (
+                        <React.Fragment key={item.id}>
+                            <a target="_blank" href={item.href} style={item.img ? {backgroundImage: `url('${item.img}')`, backgroundSize: 'cover'} : {}} className={item.className}>
+                                <div>{item.title}</div>
+                            </a>
+                            <div className={'description'}>
+                                <p>{item.description}</p>
+                                <p className={'description__stack'}>Stack: {item.stack}</p>
+                                {item.github ? <p>GitHub: <a href={item.github}>{item.github}</a></p> : null}
+                            </div>
+                        </React.Fragment>
+                    )
+                })}
             </div>
         </div>
     )

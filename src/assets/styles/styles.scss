@@ -12,6 +12,16 @@
 $text-color: #2C2C2C;
 $text-font: 'Source Code Pro', monospace, sans-serif;
 
+// Scroll Styling
+
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: transparent; height: 5px }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: transparent;}
+::-webkit-resizer { background-color: transparent;}
+
 //Styles
 
 :root {
