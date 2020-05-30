@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "578a2091084a1596c61f1fd9a93fee33",
+    "revision": "d241b7008c2f2c88c79c619c103f461e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "038b6b2f8953204c3389",
+    "revision": "47c38cc9bd62cca5e372",
     "url": "/portfolio/static/css/main.85f091ef.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a0890233.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "038b6b2f8953204c3389",
-    "url": "/portfolio/static/js/main.5ec33efe.chunk.js"
+    "revision": "47c38cc9bd62cca5e372",
+    "url": "/portfolio/static/js/main.bdfdd2ff.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/bermudy.468ae6d1.png"
   },
   {
-    "revision": "18cc7c0894ccdcb01d91b18dcf986769",
-    "url": "/portfolio/static/media/chart.18cc7c08.svg"
+    "revision": "489942f33406a896b05ddd3d2bad135c",
+    "url": "/portfolio/static/media/chart.489942f3.svg"
   },
   {
     "revision": "529c2c1ae9cfe6f9d4c4c640ae42811a",
