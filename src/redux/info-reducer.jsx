@@ -2,6 +2,7 @@ import js from './../assets/images/js.svg';
 import ts from './../assets/images/ts.svg';
 import react from './../assets/images/react.svg';
 import redux from './../assets/images/redux.svg';
+import vue from './../assets/images/vue.svg';
 import html from './../assets/images/html.svg';
 import css from './../assets/images/css.svg';
 import sass from './../assets/images/sass.svg';
@@ -26,9 +27,10 @@ let initialState = {
         {photo: ts, alt: 'TypeScript', id: 2},
         {photo: react, alt: 'React', id: 3},
         {photo: redux, alt: 'Redux', id: 4},
-        {photo: html, alt: 'HTML', id: 5},
-        {photo: css, alt: 'CSS', id: 6},
-        {photo: sass, alt: 'Sass', id: 7},
+        {photo: vue, alt: 'Vue', id: 5},
+        {photo: html, alt: 'HTML', id: 6},
+        {photo: css, alt: 'CSS', id: 7},
+        {photo: sass, alt: 'Sass', id: 8},
     ],
     portfolio: [
         {
@@ -36,10 +38,20 @@ let initialState = {
             title: 'Analyzer.',
             className: 'portfolio__projects__item analyzer',
             img: chart,
-            description: 'This is a complex app that helps you identify weaknesses in your budget by providing analytics for expenses.',
-            stack: 'JavaScript, React, Redux, NodeJS, Express, MongoDB, JWT, JSX, SCSS',
+            description: 'This is a complex app that helps you identify weaknesses in your budget by providing analytics for expenses. If you don\'t want to sing up you can test the app with credentials: email - test@mail.com, password - 1234567. Please, don\'t delete expenses in the table, this is the test account for all the users. If you want to delete something - please, sign up with your own credentials.',
+            stack: 'JavaScript, TypeScript, React, Redux, NodeJS, Express, MongoDB, JWT, JSX, SCSS',
             github: 'https://github.com/NikitaDen/analyzer',
             id: 3,
+        },
+        {
+            href: 'https://nikitaden.github.io/systemyzer/',
+            title: 'Systemyzer.',
+            className: 'portfolio__projects__item systemyzer',
+            img: 'S',
+            description: 'This app helps you systematize your thoughts, task and whatever you\'d like to. If you don\'t want to sing up you can test the app with credentials: email - test@mail.com, password - 1234567. Please, don\'t delete any data, this is the test account for all the users. If you want to delete something - please, sign up with your own credentials.',
+            stack: 'JavaScript, Vue, Vuex, Vue-router, Firebase, SCSS',
+            github: 'https://github.com/NikitaDen/systemyzer',
+            id: 5,
         },
         {
             href: 'https://nikitaden.github.io/palettor/',

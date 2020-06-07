@@ -42,7 +42,7 @@
   &__projects {
     display: grid;
     grid-template-columns: repeat(2, minmax(100px, 15vw));
-    grid-auto-rows: minmax(8vh, auto);
+    grid-auto-rows: minmax(8vw, auto);
     grid-gap: 1rem;
     justify-content: center;
 
@@ -53,7 +53,7 @@
     }
 
     @media all and (max-width: 414px) {
-      grid-auto-rows: minmax(8vh, auto);
+      grid-auto-rows: minmax(8vw, auto);
     }
 
     &__item {
@@ -99,6 +99,18 @@
       &.analyzer {
         color: black;
         background: white no-repeat bottom;
+
+        div {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      &.systemyzer {
+        color: white;
+        //background: white no-repeat bottom;
+        background: #DF9787 no-repeat bottom;
 
         div {
           position: absolute;
