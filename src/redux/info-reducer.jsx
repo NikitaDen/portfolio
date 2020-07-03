@@ -15,8 +15,11 @@ import ln from './../assets/images/linkedin.svg';
 import avatar from './../assets/images/avatar.JPG';
 
 import tasker from './../assets/images/tasker.svg';
-import chart from './../assets/images/chart.svg';
-import bermudy from './../assets/images/bermudy.png';
+import analyzer from './../assets/images/analyzer.svg';
+import systemyzer from './../assets/images/systemyzer.svg';
+import palettor from './../assets/images/palettor.svg';
+import chatter from './../assets/images/chatter.svg';
+import bermudy from './../assets/images/bermudy.svg';
 
 let initialState = {
     age: '24',
@@ -34,10 +37,20 @@ let initialState = {
     ],
     portfolio: [
         {
+            href: 'https://nikitaden.github.io/chatter/',
+            title: '',
+            className: 'portfolio__projects__item chatter',
+            img: chatter,
+            description: 'Chatter - messenger where you can communicate to anyone signed up in the app in real time. Credentials for testing: email - test@mail.com, password - 123456. email - user@mail.com, password - 123456. Open tab in incognito mode and sign in with first credentials, and in ordinary mode with second credentials. After that you can try chat between these users. Please, be respectful, don\'t spam, this is the test accounts for all the employers, who want test this app. By the way, you can sign up with your own credentials.',
+            stack: 'JavaScript, TypeScript, React, Redux, Firebase, JSX, SCSS, Material UI',
+            github: 'https://github.com/NikitaDen/chatter',
+            id: 6,
+        },
+        {
             href: 'https://nikitaden.github.io/analyzer/',
-            title: 'Analyzer.',
+            title: '',
             className: 'portfolio__projects__item analyzer',
-            img: chart,
+            img: analyzer,
             description: 'This is a complex app that helps you identify weaknesses in your budget by providing analytics for expenses. If you don\'t want to sing up you can test the app with credentials: email - test@mail.com, password - 1234567. Please, don\'t delete expenses in the table, this is the test account for all the users. If you want to delete something - please, sign up with your own credentials.',
             stack: 'JavaScript, TypeScript, React, Redux, NodeJS, Express, MongoDB, JWT, JSX, SCSS',
             github: 'https://github.com/NikitaDen/analyzer',
@@ -45,19 +58,19 @@ let initialState = {
         },
         {
             href: 'https://nikitaden.github.io/systemyzer/',
-            title: 'Systemyzer.',
+            title: '',
             className: 'portfolio__projects__item systemyzer',
-            img: 'S',
-            description: 'This app helps you systematize your thoughts, task and whatever you\'d like to. If you don\'t want to sing up you can test the app with credentials: email - test@mail.com, password - 1234567. Please, don\'t delete any data, this is the test account for all the users. If you want to delete something - please, sign up with your own credentials.',
-            stack: 'JavaScript, Vue, Vuex, Vue-router, Firebase, SCSS',
+            img: systemyzer,
+            description: 'This app helps you systematize your thoughts, task and whatever you\'d like to. If you don\'t want to sing up you can test the app with credentials: email - test@mail.com, password - 123456. Please, don\'t delete any data, this is the test account for all the users. If you want to delete something - please, sign up with your own credentials.',
+            stack: 'JavaScript, Vue, Vuex, Vue-router, Firebase, Element UI, SCSS',
             github: 'https://github.com/NikitaDen/systemyzer',
             id: 5,
         },
         {
             href: 'https://nikitaden.github.io/palettor/',
-            title: 'Pickolor.',
+            title: '',
             className: 'portfolio__projects__item palettor',
-            img: '',
+            img: palettor,
             stack: 'JavaScript, React, Redux, JSX, SCSS',
             description: 'This is a simple app that helps you find colors for the design.',
             github: 'https://github.com/NikitaDen/palettor',
@@ -65,7 +78,7 @@ let initialState = {
         },
         {
             href: 'https://nikitaden.github.io/tasker/',
-            title: 'Tasker.',
+            title: '',
             className: 'portfolio__projects__item tasker',
             img: tasker,
             stack: 'JavaScript, React (React Hooks for state management), JSX, SCSS',
@@ -75,7 +88,7 @@ let initialState = {
         },
         {
             href: 'http://bermudy.by/',
-            title: 'Bermudy.',
+            title: '',
             className: 'portfolio__projects__item bermudy',
             img: bermudy,
             description: 'Bermudy - commercial project for fish farm, that provides fishing services',

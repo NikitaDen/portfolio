@@ -55,7 +55,7 @@ const Portfolio = (props) => {
                 {props.portfolio.map(item => {
                     return (
                         <React.Fragment key={item.id}>
-                            <a target="_blank" href={item.href} style={item.img ? {backgroundImage: `url('${item.img}')`, backgroundSize: 'cover'} : {}} className={item.className}>
+                            <a target="_blank" href={item.href} style={item.img ? {backgroundImage: `url('${item.img}')`} : {}} className={item.className}>
                                 <div>{item.title}</div>
                             </a>
                             <div className={'description'}>
